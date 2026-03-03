@@ -1,0 +1,10 @@
+motor_api/
+  app/                (API FastAPI)
+  modules/
+    mjv7/
+      canonical_engine_min_v1/
+        README.md
+        spec.json
+        prompt_rules.md
+        examples/
+          example_01.md

@@ -1,0 +1,24 @@
+{
+  "engine_name": "MJ7_CANONICAL_ENGINE_MIN_v1",
+  "version": "1.0",
+  "model": "Midjourney v7",
+  "aspect_ratio": "6:13",
+  "default_params": {
+    "stylize": 25,
+    "chaos": 3,
+    "style": "raw"
+  },
+  "block_order": [
+    "REF_BLOCK",
+    "SUBJECT",
+    "PHYSIQUE",
+    "POSE",
+    "CLOTHING",
+    "LIGHTING",
+    "CAMERA",
+    "ENVIRONMENT",
+    "STYLE_ADAPTER",
+    "NEGATIVE",
+    "PARAMS"
+  ]
+}
