@@ -1,0 +1,12 @@
+body { font-family: system-ui, Arial; margin: 0; background:#0b0d10; color:#e8eef5; }
+.wrap { max-width: 920px; margin: 0 auto; padding: 18px; }
+.card { background:#12161c; border:1px solid #1f2732; border-radius: 12px; padding: 14px; margin: 12px 0; }
+label { display:block; font-size: 12px; opacity:.85; margin: 6px 0; }
+textarea, input, select { width:100%; padding:10px; border-radius:10px; border:1px solid #2a3442; background:#0c1117; color:#e8eef5; }
+.row { display:flex; gap:10px; margin-top: 10px; flex-wrap: wrap; }
+.col { flex: 1; min-width: 160px; }
+button { padding:10px 12px; border-radius: 10px; border:1px solid #2a3442; background:#1b2633; color:#e8eef5; cursor:pointer; }
+button.secondary { background: transparent; }
+.out { white-space: pre-wrap; word-break: break-word; background:#0c1117; border:1px solid #2a3442; border-radius:10px; padding:10px; min-height: 80px; }
+.small { font-size: 12px; }
+.muted { opacity: .75; }

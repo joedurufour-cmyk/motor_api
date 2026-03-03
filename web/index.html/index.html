@@ -1,0 +1,26 @@
+# MJ7 Canonical Engine MIN v1
+
+Motor estructurado para generación de prompts Midjourney V7.
+
+## Objetivo
+Generar prompts por bloques ordenados con control de dominio y estabilidad semántica.
+
+## Bloques Canónicos
+REF_BLOCK (opt)
+SUBJECT
+PHYSIQUE
+POSE
+CLOTHING
+LIGHTING
+CAMERA
+ENVIRONMENT
+STYLE_ADAPTER (opt)
+NEGATIVE (opt)
+PARAMS
+
+## Dominance Lock
+Si un bloque es dominante, ningún bloque inferior puede contradecirlo.
+
+## Uso
+Input → bloques estructurados  
+Output → prompt final limpio listo para MJ V7
