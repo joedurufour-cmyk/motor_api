@@ -1,4 +1,0 @@
-<link rel="stylesheet" href="./style.css">
-
-<script defer src="./app.js"></script>
-
