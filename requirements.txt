@@ -1,4 +1,8 @@
 fastapi
-uvicorn[standard]
-pydantic
-python-dotenv
+uvicorn
+python-multipart
+polars
+fastexcel
+duckdb
+openpyxl
+rapidfuzz
